@@ -9,7 +9,7 @@ console.log("🌱 Database seeded.");
 
 async function seedEmployees() {
   // TODO
-  await db.query("DELETE FROM employees");
+  // await db.query("DELETE FROM employees");
   for (let i = 0; i < 15; i++) {
     const employee = {
       name: faker.person.fullName(),
